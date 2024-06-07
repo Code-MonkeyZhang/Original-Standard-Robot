@@ -1,8 +1,8 @@
 /**
   ****************************(C) COPYRIGHT 2019 DJI****************************
   * @file       oled_task.c/h
-  * @brief      OLED show error value.oledÆÁÄ»ÏÔÊ¾´íÎóÂë
-  * @note       
+  * @brief      OLED show error value.oledï¿½ï¿½Ä»ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  * @note
   * @history
   *  Version    Date            Author          Modification
   *  V1.0.0     Nov-11-2019     RM              1. done
@@ -18,18 +18,16 @@
 #define OLED_TASK_H
 #include "struct_typedef.h"
 
-
-
 /**
-  * @brief          oled task
-  * @param[in]      pvParameters: NULL
-  * @retval         none
-  */
+ * @brief          oled task
+ * @param[in]      pvParameters: NULL
+ * @retval         none
+ */
 /**
-  * @brief          oledÈÎÎñ
-  * @param[in]      pvParameters: NULL
-  * @retval         none
-  */
-extern void oled_task(void const * argument);
+ * @brief          oledï¿½ï¿½ï¿½ï¿½
+ * @param[in]      pvParameters: NULL
+ * @retval         none
+ */
+extern void oled_task(void const *argument);
 
 #endif

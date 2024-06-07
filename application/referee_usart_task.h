@@ -1,8 +1,8 @@
 /**
   ****************************(C) COPYRIGHT 2019 DJI****************************
   * @file       referee_usart_task.c/h
-  * @brief      RM referee system data solve. RM²ÃÅÐÏµÍ³Êý¾Ý´¦Àí
-  * @note       
+  * @brief      RM referee system data solve. RMï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½Ý´ï¿½ï¿½ï¿½
+  * @note
   * @history
   *  Version    Date            Author          Modification
   *  V1.0.0     Nov-11-2019     RM              1. done
@@ -18,18 +18,18 @@
 #define REFEREE_USART_TASK_H
 #include "main.h"
 
-#define USART_RX_BUF_LENGHT     512
+#define USART_RX_BUF_LENGHT 512
 #define REFEREE_FIFO_BUF_LENGTH 1024
 
 /**
-  * @brief          referee task
-  * @param[in]      pvParameters: NULL
-  * @retval         none
-  */
+ * @brief          referee task
+ * @param[in]      pvParameters: NULL
+ * @retval         none
+ */
 /**
-  * @brief          ²ÃÅÐÏµÍ³ÈÎÎñ
-  * @param[in]      pvParameters: NULL
-  * @retval         none
-  */
-extern void referee_usart_task(void const * argument);
+ * @brief          ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½
+ * @param[in]      pvParameters: NULL
+ * @retval         none
+ */
+extern void referee_usart_task(void const *argument);
 #endif
