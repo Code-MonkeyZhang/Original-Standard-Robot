@@ -1,7 +1,7 @@
 /**
   ****************************(C) COPYRIGHT 2019 DJI****************************
   * @file       referee_usart_task.c/h
-  * @brief      RM referee system data solve. RM����ϵͳ���ݴ���
+  * @brief      RM referee system data solve. RM?????????????
   * @note
   * @history
   *  Version    Date            Author          Modification
@@ -27,7 +27,7 @@
  * @retval         none
  */
 /**
- * @brief          ����ϵͳ����
+ * @brief          ??????????
  * @param[in]      pvParameters: NULL
  * @retval         none
  */
